@@ -1,0 +1,53 @@
+body {
+    background-image: url("goal.jpg");
+    background-size: cover;
+    font-family: Roboto, -apple-system, Ubuntu, 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', Oxygen,  Cantarell, 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+    height: 100vh; 
+}
+
+.scoresheet {
+    max-width: 50%;
+    margin: auto;
+    border: 2px solid ;
+    border-radius: 10px;
+    /* background: whitesmoke; */
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #b2967d;
+}
+
+#save-btn {
+    background: #1f7a8c;
+}
+
+#save-el {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff4d6d;
+}
